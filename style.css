@@ -1,5 +1,46 @@
-h1, h2, h3 {
-  text-center: center;
+h2, h3, h1 {
+  font-family: arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
+
+h2, h3 {
+  color: blue;
+}
+
+p {
+  font-size: 22px;
+  text-align: center;
+  font-family: times-new-roman;
+}
+
+div {
+  padding: 5px;
+  border: 1px;
+}
+
+#menu {
+  background-color: lightgray;
+  font-size: 14px;
+  border: 0.5px solid gray;
+}
+
+/* Overrides bootrap list group items */
+.list-group-item {
+  padding: 1px 1px;
+  font-size: 22px;
+}
+
+.list-group-item:hover {
+  background-color: lightyellow;
+  color: black;
+}
+
+html, body, .container {
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
