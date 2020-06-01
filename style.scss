@@ -1,47 +1,94 @@
 %heading {
-  font-family: arial, sans-serif;
-  text-align: center;
+  font-family: 'Abril Fatface', sans-serif;
+  text-align: left;
+  margin-left: 6%;
 }
 
 h1{
   @extend %heading;
-  color: red;
+  color: white;
+  font-size: 54px;
 }
 
 h2, h3{
   @extend %heading;
-  color: blue;
+  color: #9EFFB8;
 }
 
 p {
-  font-size: 22px;
-  text-align: center;
-  font-family: times-new-roman;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 5%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: white;
 }
 
 div {
-  padding: 5px;
-  border: 1px;
+  padding: 10px;
+  border: 2px;
 }
 
 #menu {
-  background-color: lightgray;
+  background-color: #BCDEE8;
   font-size: 14px;
   border: 0.5px solid gray;
 }
 
 /* Overrides bootrap list group items */
 .list-group-item {
-    padding: 1px 1px;
+    padding: 5px 8px;
     font-size: 22px;
+}
 
+.list-group {
+  margin-right: 10px;
+}
+
+/* Overrides active */
+.active {
+  background-color: red;
 }
 
 .list-group-item:hover {
-  background-color: lightyellow;
-  color: black;
+  background-color: #157AF6;
+  color: white;
 }
 
 html,body,.container {
     height:100%;
+}
+
+img {
+  width: 60%;
+  text-align: center;
+  padding: 1px 2px;
+}
+
+.blur img{
+transition: 1s ease;
+}
+
+.blur img:hover {
+-webkit-filter: blur(4px);
+transition: 1s ease;
+}
+
+body {
+  background-color: #00ADDC;
+}
+
+.bottom-left {
+  position: absolute;
+  margin-left: 20px;
+  bottom: 50px;
+  left: 100px;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: white;
+  padding: 3px 7px;
+  background-color: green;
+  border-radius: 25px;
+  border: 2px solid lightgreen;
 }
