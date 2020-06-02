@@ -1,14 +1,45 @@
+About:
+  This webpage is about swimming, it has information about the sport and other related topics that might be interesting to any beginners. It has some information about training plans and calories burned when swimming at each different style.
+
+What's contained in each file:
+  +index.html: Home page, with a fixed menu that links to the rest of the pages at the left, and text about swimming in general. Ends with an image of swimmer Florent Manaudou(florent-manaudou.jpg).
+
+  +muscles.html: webpage about muscles used when swimming, with a fixed menu that links to the rest of the pages at the left, and two paragraphs about the use of muscles when swimming and how to take advantage of swimming to build strength. Ends with an image highlighting muscles used in each stroke(swimming-muscles.jpg).
+
+  +styles.html: webpage about the different swimming styles used when swimming, with a fixed menu that links to the rest of the pages at the left, 4 paragraphs talking briefly about the qualities of each stroke, a table showing the calories burned when swimming at each of the different styles for an hour and an image(mp-butterfly.jpg)
+
+  +training.html: webpage about training exercised, with a fixed menu that links to the rest of the pages at the left, a list with 6 list links to different external webpages with a varied amount of swimming workouts and exercises. Ends with a gif(turn.gif) of a swimmer making a turn, corners have been made 'circular' to make it appealing to the user.
+
+  +style.scss: Main scss stylesheet, *see section 'How I met the requirements met', for more information about selectors implemented etc.*
+
+  +style.css: Main css stylesheet linked in all html files, converted using sass command from style.scss.
+
+  +style.css.map: maps between style.scss to style.css.
+
+  +swimming-muscles.jpg: image highlighting muscles used in each stroke.
+
+  +mp-butterfly.jpg: an image of American swimmer Michael Phelps swimming butterfly.
+
+  +florent-manaudou.jpg: an image of french swimmer Florent Manaudou.
+
+  +turn.gif: gif of a swimmer making a turn.
+
+HOW I MET THE REQUIREMENTS:
+-Contains 4 html pages, all with a custom menu that links to all pages.
+-Includes one unordered list in training.html, one table in styles.html and 1 image in each of the pages(1 of them a gif). 
+
+
+
+
+
+
+
+
 # Project 0
 
 Web Programming with Python and JavaScript
 
 #requirements
 
--Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
--Your website must include at least one list (ordered or unordered), at least one table, and at least one image.
--Your website must have at least one stylesheet file.
--Your stylesheet(s) must use at least five different CSS properties, and at least five different types of CSS selectors. You must use the #id selector at least once, and the .class selector at least once.
--Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
--You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
--Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
+
 -In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
