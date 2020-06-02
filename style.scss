@@ -1,7 +1,7 @@
 %heading {
   font-family: 'Abril Fatface', sans-serif;
   text-align: left;
-  margin-left: 6%;
+  margin-left: 1%;
 }
 
 h1{
@@ -19,7 +19,7 @@ p {
   font-size: 24px;
   text-align: justify;
   text-justify: inter-word;
-  margin-left: 5%;
+  margin-left: 1%;
   font-family: 'Roboto';
   font-weight: 300;
   color: white;
@@ -40,7 +40,7 @@ ul {
 }
 
 div {
-  padding: 10px;
+  padding: 8px;
   border: 2px;
 }
 
@@ -110,4 +110,39 @@ body {
 
 a:hover {
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .menu {
+        background-color: #BCDEE8;
+        font-size: 14px;
+        border: 0.5px solid gray;
+        min-height:100%;
+        position:fixed;
+    }
+    .bottom-left {
+      position: absolute;
+      margin-left: 20px;
+      bottom: 50px;
+      left: 100px;
+      font-size: 20px;
+      font-family: 'Roboto';
+      font-weight: 300;
+      color: white;
+      padding: 3px 7px;
+      background-color: green;
+      border-radius: 25px;
+      border: 2px solid lightgreen;
+    }
+}
+
+@media (max-width: 1199px) {
+  .menu {
+    background-color: #BCDEE8;
+    font-size: 14px;
+    border: 0.5px solid gray;
+  }
+  .bottom-left {
+    display: none;
+  }
 }
