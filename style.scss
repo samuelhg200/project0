@@ -17,11 +17,26 @@ h2, h3{
 
 p {
   font-size: 24px;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
   margin-left: 5%;
   font-family: 'Roboto';
   font-weight: 300;
   color: white;
+  margin-right: 2%;
+}
+
+ul {
+  font-size: 22px;
+  font-family: 'Roboto';
+  text-align: left;
+  margin-left: 6%;
+  li{
+    font-weight: bold;
+    a{
+      color: green;
+      }
+    }
 }
 
 div {
@@ -91,4 +106,8 @@ body {
   background-color: green;
   border-radius: 25px;
   border: 2px solid lightgreen;
+}
+
+a:hover {
+  cursor: pointer;
 }
